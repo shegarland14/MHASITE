@@ -1,0 +1,62 @@
+
+.form-container{
+    background-color: rgb(40, 128, 115);
+   
+
+}
+
+form {
+    width:400px;
+    padding:30px;
+    
+}
+
+.form-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: rgba(253, 253, 252, 0.945);
+    letter-spacing: 3px;
+}
+
+.form-body  {
+    display: block;
+    text-align: center;
+}
+input {
+    text-align: center;
+    padding:10px;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.form-footer{
+    display: flex;
+    justify-content: center;
+
+}
+button {
+    margin: 30px;
+    padding: 20px;
+    background-color: rgba(242, 149, 9, 0.976);
+    color: white;
+    position: relative;
+}
+
+a:hover button{
+    background-color: white;
+    color: black;
+    transition-delay: .025s;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 768px) {
+    form{
+    width:100%;
+    background-color: rgb(40, 128, 115);
+    }
+    
+}

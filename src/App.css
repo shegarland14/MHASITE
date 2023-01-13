@@ -12,11 +12,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(198, 211, 82, 0.73);
 }
 
 .container {
-  max-width:90%;
+  max-width:100%;
+  position: relative;
   margin-right: auto;
   margin-left: auto;
-  padding: 1rem;
+  padding: 0rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.image1 {
+max-width: 100%;
+}
+
+.container h3 {
+  padding: 40px;
+}
+.container ul li{
+  list-style: none;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.specialize{
+  padding-left: 80px;
+  padding-bottom: 30px;
+}
+.list {
+  padding-left: 120px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .image1{
+
+  }
+  .container{
+    display:block;
+    
+  }
 }
