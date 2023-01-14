@@ -3,6 +3,8 @@
     max-width: 100%;
     display: block;
     text-align: center;
+    background-color: white;
+
 }
 
 h1 {
@@ -19,3 +21,28 @@ h1 {
     font-weight: bold;
     letter-spacing: 2px;
 }
+.steps  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.words {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button1 {
+    display: block;
+}
+
+i {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .steps{
+    display: block;
+  }
+ 
+    }
+    
