@@ -1,13 +1,13 @@
 
 .form-container{
     background-color: rgb(40, 128, 115);
-   
-
+    text-align: center;
 }
 
 form {
     width:400px;
     padding:30px;
+
     
 }
 
@@ -25,10 +25,12 @@ form {
     text-align: center;
 }
 input {
+    
     text-align: center;
     padding:10px;
     border-radius: 30px;
     margin: 10px;
+    background-color: rgba(255, 228, 196, 0.589);
 
 }
 

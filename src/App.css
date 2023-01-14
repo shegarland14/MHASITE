@@ -12,7 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(198, 211, 82, 0.73);
+  background-color: rgba(219, 228, 139, 0.791);
 }
 
 .container {
@@ -28,23 +28,33 @@ body {
 
 .image1 {
 max-width: 100%;
+padding: auto;
 }
 
 .container h3 {
   padding: 40px;
+  text-align: center;
 }
 .container ul li{
+  display:block;
+  justify-content:center;
   list-style: none;
   padding: 15px;
-  font-weight: bold;
+  color: rgb(179, 74, 4);
+  font-family: cursive;
+  text-align: center;
+  font-size: larger;
+
 }
 
 .specialize{
-  padding-left: 80px;
-  padding-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+  font-family: cursive;
+
+
 }
 .list {
-  padding-left: 120px;
 }
 
 

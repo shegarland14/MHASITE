@@ -10,8 +10,9 @@ function App() {
       
         <div className='container'> 
           <div className='column1'> 
-            <h3> We have helped many families across The Carolinas <br/>
-              And we would be more than happy to help you as well.
+            <h3> We have helped many families across 
+              <br/> South Carolina, North Carolina, and Georgia<br/> 
+               We would be more than happy to help you too!
               <br/>
             </h3>
             <p className='specialize'> We specialize in homes that are:</p>
@@ -26,13 +27,9 @@ function App() {
           <div className="column2">
             <Form/>
           </div>
-
         </div>
-
-
-      
-
-      </div>
+        
+    </div>
     
   );
 }
