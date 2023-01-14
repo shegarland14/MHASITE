@@ -3,6 +3,7 @@ import Navbar from './nav';
 import main from './images/mh.png';
 import Form from './form';
 import Sell from './sell';
+import About from './about';
 function App() {
   return (
     <div>
@@ -30,6 +31,8 @@ function App() {
           </div>
         </div>
       <Sell/>
+
+      <About/>
     </div>
     
   );

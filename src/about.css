@@ -1,0 +1,13 @@
+
+.about-us {
+    max-width: 100%;
+    background-color: rgb(40, 128, 115);
+    text-align: center;
+
+}
+.about-us h1{
+    color: black;
+}
+.title {
+    padding: 25px;
+}
