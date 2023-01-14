@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './nav';
 import main from './images/mh.png';
 import Form from './form';
+import Sell from './sell';
 function App() {
   return (
     <div>
@@ -28,7 +29,7 @@ function App() {
             <Form/>
           </div>
         </div>
-        
+      <Sell/>
     </div>
     
   );

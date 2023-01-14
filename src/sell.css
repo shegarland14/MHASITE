@@ -1,0 +1,21 @@
+
+.sell {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 35px;
+    color:rgb(66, 40, 4);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.sell h2 {
+    padding-top: 35px;
+    color: rgb(255, 132, 0);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
