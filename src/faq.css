@@ -1,6 +1,15 @@
 
 .faq-info {
     text-align: center;
-    padding: 35px;
+    padding: 20px;
+    font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.questions{
+    text-align: center;
+    
+}
+h3 span {
+    text-weight: bold;
+
 }
