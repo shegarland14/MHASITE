@@ -4,6 +4,7 @@ import main from './images/mh.png';
 import Form from './form';
 import Sell from './sell';
 import About from './about';
+import Faq from './faq';
 function App() {
   return (
     <div>
@@ -33,6 +34,7 @@ function App() {
       <Sell/>
 
       <About/>
+      <Faq/>
     </div>
     
   );
