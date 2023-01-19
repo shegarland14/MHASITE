@@ -11,7 +11,7 @@ export default function Form() {
     const[bath, setBath]=useState("");
     const[address, setAddress]=useState("");
     const[moved, setMoved]=useState("");
-    
+
  return (
     <div className="form-container">
         <form>               
@@ -22,9 +22,9 @@ export default function Form() {
             <div className="form-body">    
                 <input 
                     type="text"
-                    value={name}
+                    value= {name}
                     placeholder='Enter Your Name'
-                    onChange={(e) => setName(e.target.value)}
+                    onChange ={(e) => setName(e.target.value)}
                     />
             
             
