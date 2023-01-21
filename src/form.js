@@ -3,18 +3,35 @@ import "./form.css";
 import { useState } from 'react';
 
 export default function Form() {
-    const[name, setName]=useState("");
-    const[email, setEmail]=useState("");
-    const[number, setNumber]=useState("");
-    const[year, setYear]=useState("");
-    const[bed, setBed]=useState("");
-    const[bath, setBath]=useState("");
-    const[address, setAddress]=useState("");
-    const[moved, setMoved]=useState("");
+    const [details, setDetails] = useState({
+        name: '',
+        email: '',
+        number: '',
+        year: '',
+        beds: '' ,
+        baths: '',
+        address: '',
+        moved: '',
+        })
+
+    const handleChange = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+
+        setDetails((prev) => {
+            return {...prev, [name]: value}
+        });
+    };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(details)
+
+    };
+
 
  return (
     <div className="form-container">
-        <form>               
+        <form onSubmit = {handleSubmit}>               
             <div className="form-header"> 
                <h2> *Your Property Details </h2>
             </div>
@@ -22,58 +39,59 @@ export default function Form() {
             <div className="form-body">    
                 <input 
                     type="text"
-                    value= {name}
+                    name = 'name'
                     placeholder='Enter Your Name'
-                    onChange ={(e) => setName(e.target.value)}
+                    onChange ={handleChange}
                     />
             
             
                 <input 
                     type="text"
-                    value={email}
+                    name = 'email'
                     placeholder='Enter Your Email'
-                    onChange={(e) => setEmail(e.target.value)}
+                     onChange ={handleChange}
+
                     />
             
             
                 <input 
                     type="text"
-                    value={number}
+                    name='number'
                     placeholder='Phone Number'
-                    onChange={(e) => setNumber(e.target.value)}
+                    onChange ={handleChange}
                     />
              
             
                 <input 
                     type="text"
-                    value={year}
+                    name = 'year'
                     placeholder='Year'
-                    onChange={(e) => setYear(e.target.value)}
+                    onChange ={handleChange}
                 />
             
                 <input 
                     type="text"
-                    value={bed}
+                    name= 'bed'
                     placeholder='Bed(s)'
-                    onChange={(e) => setBed(e.target.value)}
+                    onChange ={handleChange}
                 />
             <input 
                     type="text"
-                    value={bath}
+                    name = 'baths'
                     placeholder='Bath(s)'
-                    onChange={(e) => setBath(e.target.value)}
+                    onChange ={handleChange}
                 />
                 <input 
                     type="text"
-                    value={address}
+                    name = 'address'
                     placeholder='Property Address'
-                    onChange={(e) => setAddress(e.target.value)}
+                    onChange ={handleChange}
                 />
                 <input 
                     type="text"
-                    value={moved}
+                    name = 'moved'
                     placeholder='Needs To Be Moved?'
-                    onChange={(e) => setMoved(e.target.value)}
+                    onChange ={handleChange}
                 />
                </div>
             <div class="form-footer"> 
